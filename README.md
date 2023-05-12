@@ -21,6 +21,8 @@
 
 - A simple Google search for any concept covered in this course returns thousands of think pieces and tutorials from developers of all skill levels.
 
+- Being a web developer means being part of a community. You’ll need a place to share your projects not only if you're applying for jobs or working as a freelancer but also so that you can share your work with fellow developers and collaborate on future projects.
+
 
 
  ## Table of Contents
@@ -105,11 +107,6 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
  
 
   # This project has been deployed to GitHub, here is the link:
-
-  * 
-
-
-  # The URL of the functional, deployed application in Heroku
   
   * 
 
@@ -120,7 +117,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Summary
 
- 
+ Being a web developer means being part of a community. You’ll need a place to share your projects not only if you're applying for jobs or working as a freelancer but also so that you can share your work with fellow developers and collaborate on future projects.
 
 
 
