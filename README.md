@@ -99,6 +99,12 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
   
   - The front end is at localhost 3000.
 
+
+
+
+
+# The URL of the functional, deployed application.
+
  
 
   # This project has been deployed to GitHub, here is the link:
@@ -109,7 +115,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
   # Team-Profile-Generator-OOP Screenshots
  
 
-* ![Screenshot (79)](https://github.com/wento777/React-Portfolio/assets/70625665/d3d50a46-b454-4c22-a839-ba5bcec10357)
+![Screenshot (79)](https://github.com/wento777/React-Portfolio/assets/70625665/d3d50a46-b454-4c22-a839-ba5bcec10357)
 
 ## Summary
 
