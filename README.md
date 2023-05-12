@@ -104,7 +104,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 
 # The URL of the functional, deployed application.
-
+* https://wento777.github.io/React-Portfolio/
  
 
   # This project has been deployed to GitHub, here is the link:
