@@ -47,12 +47,7 @@ Both are run from the root. The front end is at localhost 3000.
 ## Usage
 
   - This Challenge will combine many of the skills you’ve learned over the first ten weeks of this course. To help you get started, we’ve provided some guidelines in addition to the User Story and Acceptance Criteria.
-  
 
-  - Deploy to Heroku as per usual. 
-
-
--  
 
   - Make sure that you remove dist from the .gitignore file so that Git will track this folder and include it when you push up to your application's repository.
   
