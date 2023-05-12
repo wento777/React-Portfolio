@@ -109,7 +109,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
   # This project has been deployed to GitHub, here is the link:
   
-  * 
+  * https://github.com/wento777/React-Portfolio
 
 
   # Team-Profile-Generator-OOP Screenshots
