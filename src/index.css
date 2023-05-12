@@ -1,0 +1,57 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(235, 107, 107);
+  
+  }
+  
+  .navbar, .navbar-brand {
+    text-align: center, ;
+    display: block;
+    width: 100%;
+    background-color: rgb(225, 230, 175);
+    
+  }
+  
+  div.navbar-brand {
+    padding-top: 2em;
+    margin-bottom: 2em;
+    
+  }
+  
+  .navbar .navbar-brand > .navbar-item,
+  .navbar .navbar-brand .navbar-link {
+    display: inline-block;
+  }
+  
+  main {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 30em;
+    margin-right: 30em;
+  }
+  
+  .my-pic {
+      clip-path: none();
+    width: 450px;
+  }
+  
+  .label {
+    text-align: center;
+  }
+  
+  footer.footer {
+    background-color: rgb(208, 235, 167);
+  }
+  
+  
+  
+  
+  @media only screen and (max-width: 1024px) {
+      main {
+        margin-top: 2em;
+        margin-bottom: 5em;
+        margin-left: 2em;
+        margin-right: 2em;
+      }
+  }
