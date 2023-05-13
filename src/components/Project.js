@@ -24,11 +24,11 @@ function Project(props) {
                   </div>
                 </div>
 
-                <div className="content has-text-left">
+                <div className=" has-text-left">
                   {project.description}
                   <br />
                   <br />
-                  <div className="content is-family-code">
+                  <div className=" is-family-code">
                     Languages: {project.languages}
                     <br />
                     NPM Packages: {project.packages}

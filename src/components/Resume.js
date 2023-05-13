@@ -1,1 +1,52 @@
-//Hi my name is Andrei Florea, I'm a graduate of KU Full Stack Web Developer & Software Engineer Bootcamp. In May 2023 I receive a  Certificate of Completion from the University of Kansas Jayhawk Global, which provided me a strong foundation in object-oriented programming of progressive web applications that included HTML5, CSS3, JavaScript, jQuery, Express.js, React.js, Node.js, progressive web apps, agile methodology, computer science, database theory, MongoDB, MySQL, Git, and more.
+import React, { useState } from "react";
+import PDF from "../assets/fake-resume.pdf";
+
+export default function Resume() {
+  const [showPDF, setShowPDF] = useState(true);
+
+  const handleClick = () => {
+    setShowPDF(!showPDF);
+  };
+
+  return (
+    <div className="m-5">
+      <div className="pb-2">
+        <h3>Resume</h3>
+        <h6>
+          Print or download my{" "}
+          <a href="#resumePDF" onClick={handleClick}>
+            resume
+          </a>
+        </h6>
+      </div>
+      {showPDF ? (
+        <div>
+          <ul>
+            Front-end Proficiencies
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>Responsive Design</li>
+            <li>ReactJS</li>
+            <li>Bootstrap</li>
+          </ul>
+          <ul>
+            Back-end Proficiencies
+            <li>APIs</li>
+            <li>Node</li>
+            <li>Express</li>
+            <li>MySQL & Sequelize</li>
+            <li>MongoDB & Mongoose</li>
+            <li>REST APIs</li>
+            <li>GraphQL</li>
+          </ul>
+        </div>
+      ) : (
+        <div className="w-100">
+          <object aria-label="pdf resume" width="100%" height="800" data={PDF} type="application/pdf" />
+        </div>
+      )}
+    </div>
+  );
+}

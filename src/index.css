@@ -4,7 +4,9 @@ body {
     background-color: rgb(235, 107, 107);
   
   }
-  
+  .content {
+    font-size: 30pt;
+  }
   .navbar, .navbar-brand {
     text-align: center, ;
     display: block;

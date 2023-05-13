@@ -3,8 +3,16 @@ import React from "react";
 function Navigation(props) {
   const tabs = ["About", "Portfolio", "Contact", "Resume"];
   return (
-    <div className="tabs is-centered">
-      <ul className="nav nav-tabs">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    {/* <a class="navbar-brand" href="#"></a> */}
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    {/* <div className="tabs is-centered">
+      <ul className="nav nav-tabs"> */}
+       <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
         {tabs.map((tab) => (
           <li
             className={
@@ -25,6 +33,8 @@ function Navigation(props) {
         ))}
       </ul>
     </div>
+    </div>
+    </nav>
   );
 }
 
